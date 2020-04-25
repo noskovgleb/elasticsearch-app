@@ -5,3 +5,9 @@ GET http://localhost:9200
 GET http://localhost:9200/_cat/indices
 
 ###
+
+GET http://localhost:9200/search_bar*/_search?q=Beast
+
+###
+
+GET http://localhost:9200/search_bar*/_mapping
